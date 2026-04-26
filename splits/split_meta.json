@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "strat_field": "name_norm",
+  "n_train": 996,
+  "n_val": 127,
+  "n_test": 264,
+  "n_groups_train": 584,
+  "n_groups_val": 126,
+  "n_groups_test": 126
+}

@@ -1,0 +1,33 @@
+{
+  "CONF_HIGH": 0.7,
+  "CONF_LOW": 0.4,
+  "UNKNOWN_LABEL": "__unknown__",
+  "RARE_LABEL": "__rare__",
+  "FIELD_SCHEMA": [
+    {
+      "field": "name",
+      "required": true,
+      "fallback": "предмет",
+      "prefix": "",
+      "low_conf_prefix": "возможно, "
+    },
+    {
+      "field": "material",
+      "required": true,
+      "fallback": "неопределённого материала",
+      "prefix": "из ",
+      "low_conf_prefix": "предположительно из "
+    },
+    {
+      "field": "fragm",
+      "required": false,
+      "fallback": null,
+      "prefix": "",
+      "low_conf_prefix": null,
+      "value_map": {
+        "фрагмент": "(фрагмент)",
+        "целый": "(целый предмет)"
+      }
+    }
+  ]
+}
